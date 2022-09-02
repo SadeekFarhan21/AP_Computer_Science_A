@@ -4,16 +4,16 @@ public class Constructor {
     private int age;
     private double income;
     
-    public Constructor(String nm, int ag, double inc){
-        name = nm;
-        age = ag;
-        income = inc;
+    public Constructor(String Name, int Age, double Income){
+        name = Name;
+        age = Age;
+        income = Income;
     }
 
     public static void main(String[] args){
         Constructor Farhan = new Constructor("Farhan Sadeek", 17, 970000);
-        System.out.println(Farhan.name);
-        System.out.println(Farhan.age);
-        System.out.println(Farhan.income);
+        System.out.printf("Name of the employee is %s\n", Farhan.name);
+        System.out.printf("Age of the Employee is %d\n", Farhan.age);
+        System.out.printf("Income of the Employee is %.0f\n", Farhan.income);
     }
 }
