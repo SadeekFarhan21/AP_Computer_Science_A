@@ -14,5 +14,6 @@ public class Main {
         System.out.println(car1.owner);
         System.out.println(car1.year);
         System.out.println(car1.isSports);
+        input.close();
     }
 }

@@ -7,5 +7,6 @@ public class Class {
         Scanner input = new Scanner(System.in);
         int x = input.nextInt();
         System.out.printf("%d", x);
+        input.close();
     }
 }
