@@ -21,6 +21,9 @@ public class Car {
         this.isSports = isSports;
     }
 
+    public static void output(){
+        System.out.println("This is a method inside the car class");
+    }
     
-        
+    
 }
