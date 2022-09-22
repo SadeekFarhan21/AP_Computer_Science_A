@@ -13,8 +13,10 @@ Constructor className (list of parameters){
 className objectName = new className(parameters);
 
 ### Creating a method
+```
 public/private [static] returnType methodName(list of parameters){
     data manipulation;
     return variable;
     can be void if returnType is void
 }
+```
