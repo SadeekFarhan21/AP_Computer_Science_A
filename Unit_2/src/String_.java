@@ -14,6 +14,5 @@ public class String_{
         System.out.println(c.compareTo(b));
         System.out.println(d.compareTo(b));
         
-        input.close();
     }
 }
