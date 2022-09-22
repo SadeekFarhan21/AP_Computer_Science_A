@@ -11,9 +11,9 @@ public class String_{
         String b = "Farhan";
         String c = "Shravan";
         String d = "Farhan";
-        System.out.println(b.compareTo(c));
-        System.out.println(c.compareTo(b));
-        System.out.println(d.compareTo(b));
+        System.out.println(b.compareTo(c)); // -13
+        System.out.println(c.compareTo(b)); // 13
+        System.out.println(d.compareTo(b)); // 0
         
     }
 }
