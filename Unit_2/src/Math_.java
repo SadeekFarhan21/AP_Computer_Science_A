@@ -40,7 +40,8 @@ public class Math_ {
         double sqrt = Math.sqrt(17.4);
         System.out.println(sqrt);
 
-        // Power
-        double pow = 
+        // Power Rule
+     // dataType variable = Math.sqrt(base, exp);
+        double pow = Math.pow(sqrt, 2.0);
     }
 }
