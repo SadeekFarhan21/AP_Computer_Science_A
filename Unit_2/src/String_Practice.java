@@ -1,7 +1,7 @@
 // import java.util.*;
 class String_Practice {
     public static void main(String[] args){
-        String a = new String("Farhan is a stupid person.");
+        String a = new String("Farhan is ambidextrous.");
         System.out.println(a.contains("i"));
 
         String favClass = "Beriod 4";
