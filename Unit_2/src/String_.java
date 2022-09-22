@@ -38,8 +38,15 @@ public class String_{
         
         
         
-    
-    
+        // Length --> Only Tricky ones
+        String a = "\n";
+        System.out.println(a.length()); // 1
+
+        String v = "\t";
+        System.out.println(v.length()); // 1
+
+        // Length any escape sequence is "1" not "2"
+        
         
     }
 }
