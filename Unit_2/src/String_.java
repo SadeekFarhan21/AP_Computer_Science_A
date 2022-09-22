@@ -15,5 +15,31 @@ public class String_{
         System.out.println(c.compareTo(b)); // 13
         System.out.println(d.compareTo(b)); // 0
         
+
+
+
+
+        // Substring
+
+        String lightBulb = "Don't brake light bulbs";
+        String batteries = "Don't burn batteries";
+
+        // variableName.methodName(parameters);
+        // lightbulb.substring(start, end) --> start is inclusive; end is exlcusive
+        System.out.println(lightBulb.substring(1, 6)); 
+        // Output : on't
+        
+        
+        // batteries.substring(start); --> has starting point but no ending point aka goes to the end of string
+        System.out.println(batteries.substring(6));
+        // Output : burn batteries
+
+
+        
+        
+        
+    
+    
+        
     }
 }
