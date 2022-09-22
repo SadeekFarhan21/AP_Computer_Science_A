@@ -1,0 +1,35 @@
+Unit 2 Using Objects
+
+### Class Definition
+class className { 
+    list of variables;
+}
+
+### Constructor
+Constructor className (list of parameters){ 
+    this.parameters = parameters;
+}
+### Creating an object
+className objectName = new className(parameters);
+
+### Creating a method
+public/private [static/changeable] returnType methodName(list of parameters){
+    data manipulation;
+    return variable;
+    can be void if returnType is void
+}
+
+# Calling a method
+variableName.methodName(parameters);
+
+
+# Math Class
+
+## Square root 
+double / Double variableName = Math.sqrt(num1);
+
+## Absolute Value
+dataType variableName = Math.abs(number1 - number2);
+
+## Random
+dataType variableName = (int) Math.random(max - min + 1) + min;
