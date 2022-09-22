@@ -11,10 +11,14 @@ public class Math_ {
         double a = Math.random();
         System.out.println(a); // Any random number
 
+
+
         // Random number between 12 and 43
         int rn  = (int)(12 + Math.random() * (43 - 12 + 1));
         int randomNumber  = (int)      (12 +  Math.random(             ) * (43  - 12 +  1));
      // dataType variable = (dataType) (min + Math.random(no parameters) * (max - min + 1));
+     
+     
      // range = max - min + 1;
      // dataType variable = (dataType) (min + Math.random(no parameters) * range);
         System.out.println(randomNumber); // any number between the range
@@ -35,5 +39,8 @@ public class Math_ {
         // Square Root
         double sqrt = Math.sqrt(17.4);
         System.out.println(sqrt);
+
+        // Power
+        double pow = 
     }
 }
