@@ -29,8 +29,9 @@ public class Object {
         System.out.println(i.intValue());
         i = new Integer(14);
         System.out.println(i.intValue());
-        
+
         int rn = (int) (Math.random() * 100) + 1;
         System.out.println(rn);
+        */
     }
 }
