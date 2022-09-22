@@ -43,5 +43,6 @@ public class Math_ {
         // Power Rule
      // dataType variable = Math.sqrt(base, exp);
         double pow = Math.pow(sqrt, 2.0);
+        System.out.println(pow);
     }
 }
