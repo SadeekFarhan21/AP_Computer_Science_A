@@ -13,10 +13,17 @@ Constructor className (list of parameters){
 className objectName = new className(parameters);
 
 ### Creating a method
-```
-public/private [static] returnType methodName(list of parameters){
+public/private [static/changeable] returnType methodName(list of parameters){
     data manipulation;
     return variable;
     can be void if returnType is void
 }
-```
+
+# Square root 
+double / Double variableName = Math.sqrt(num1);
+
+# Absolute Value
+dataType variableName = Math.abs(number1 - number2);
+
+# Random
+dataType variableName = (int) Math.random(max - min + 1) + min;
