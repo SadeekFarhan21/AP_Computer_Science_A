@@ -19,11 +19,17 @@ public/private [static/changeable] returnType methodName(list of parameters){
     can be void if returnType is void
 }
 
-# Square root 
+# Calling a method
+variableName.methodName(parameters);
+
+
+# Math Class
+
+## Square root 
 double / Double variableName = Math.sqrt(num1);
 
-# Absolute Value
+## Absolute Value
 dataType variableName = Math.abs(number1 - number2);
 
-# Random
+## Random
 dataType variableName = (int) Math.random(max - min + 1) + min;
