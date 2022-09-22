@@ -45,6 +45,9 @@ public class String_{
         String v = "\t";
         System.out.println(v.length()); // 1
 
+        String x = "\"\\Who's there?\\\""; // \\ --> length is 1; \" --> length is 1; ** BE CAREFUL
+        System.out.println(x);
+        System.out.println(x.length()); // 
         // Length any escape sequence is "1" not "2"
         
     }
