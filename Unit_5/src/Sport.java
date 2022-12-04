@@ -48,7 +48,7 @@ public class Sport{
     }
 
     public String toString(){
-        return "Sport: " + name + "\nNumber of Athletes: " + numberOfAthletes;
+        return "Sport: " + name + "\nNumber of Athletes: " + numberOfAthletes; 
     }
 
     
