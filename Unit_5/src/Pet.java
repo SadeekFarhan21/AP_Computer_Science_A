@@ -31,7 +31,7 @@ public class Pet{
         return typeOfPet;
     }
 
-    public int age(){
+    public int getAge(){
         return age;
     }
 
