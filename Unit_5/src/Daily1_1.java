@@ -23,11 +23,21 @@ public class Daily1_1{
     }
 
     public int getCalories(){
+        // accessor method
         return calories;
     }
 
     public String getName(){
+        // accessor method
         return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+    
+    public void setCalories(int calories){
+        this.calories = calories;
     }
     public static void main(String [] args){
         
