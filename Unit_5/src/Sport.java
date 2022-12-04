@@ -4,6 +4,8 @@
 // You need to set a default value for all constructors
 // You need to set a default value even for overloaded constructors
 
+
+// 
 public class Sport{
     private String name;
     private int numberOfAthletes;
@@ -44,5 +46,10 @@ public class Sport{
     public void setAthletes(int numberOfAthletes){
         this.numberOfAthletes = numberOfAthletes;
     }
+
+    public String toString(){
+        return "Sport: " + name + "\nNumber of Athletes: " + numberOfAthletes;
+    }
+
     
 }
