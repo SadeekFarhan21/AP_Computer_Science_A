@@ -1,4 +1,7 @@
-// Private variables 
+// Private variables
+// type ==> type of the cow
+// sound ==> the sound that the cow makes
+// number of milkings ==> how many times the cow was milked
 public class Cow {
     private String type;
     private String sound;
