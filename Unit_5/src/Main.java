@@ -13,6 +13,24 @@ public class Main {
         System.out.print(snack2.getCalories());
         System.out.print(snack3.getName());
         System.out.print(snack3.getCalories()); 
+        /*
+        Sport Lacrosse = new Sport(); // default constructor
+        System.out.println(Lacrosse.getName());
+        System.out.println(Lacrosse.getNumberOfAtheletes());
+
+        Sport Soccer = new Sport("Lacrosee"); // overloaded constructor
+        System.out.println(Soccer.getName()); // only name
+        System.out.println(Soccer.getNumberOfAtheletes());
+
+        Sport Football = new Sport(10000); // overloaded constructor
+        System.out.println(Football.getName());
+        System.out.println(Football.getNumberOfAtheletes());
+
+        
+        Sport Baseball = new Sport("Baseball", 1000); // overloaded constructor
+        System.out.println(Baseball.getName());
+        System.out.println(Baseball.getNumberOfAtheletes());
+        */
         input.close();
     }
 }
