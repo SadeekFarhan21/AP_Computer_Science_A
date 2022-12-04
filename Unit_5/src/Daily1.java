@@ -4,20 +4,20 @@
 // constructors --> public
 // methods --> public / private
 
-public class Daily1_1{
+public class Daily1{
     private String name;
     private int calories;
-    public Daily1_1(){ // default constructor
+    public Daily1(){ // default constructor
         name = "";
         calories = 0;
     }
 
-    public Daily1_1(String name, int calories){ // overloaded constructor 
+    public Daily1(String name, int calories){ // overloaded constructor 
         this.name = name;
         this.calories = calories;
     }
 
-    public Daily1_1(int c, String s){ // overloaded constructor
+    public Daily1(int c, String s){ // overloaded constructor
         calories = c;
         name = s;
     }

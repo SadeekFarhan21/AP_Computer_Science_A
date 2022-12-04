@@ -4,9 +4,9 @@ public class Main {
         Scanner input = new Scanner(System.in);
         String snackName = input.nextLine();
         int snackCalories = input.nextInt();
-        Daily1_1 snack1 = new Daily1_1(); // default constructor
-        Daily1_1 snack2 = new Daily1_1(snackName, snackCalories); // overloaded constructor 1
-        Daily1_1 snack3 = new Daily1_1(snackCalories, snackName); // overloaded constructor 2
+        Daily1 snack1 = new Daily1(); // default constructor
+        Daily1 snack2 = new Daily1(snackName, snackCalories); // overloaded constructor 1
+        Daily1 snack3 = new Daily1(snackCalories, snackName); // overloaded constructor 2
         System.out.print(snack1.getName());
         System.out.print(snack1.getCalories());
         System.out.print(snack2.getName());
