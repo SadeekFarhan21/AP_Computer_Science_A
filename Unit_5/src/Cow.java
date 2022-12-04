@@ -1,3 +1,4 @@
+// Private variables 
 public class Cow {
     private String type;
     private String sound;

@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String [] args){
+        /* 
         Scanner input = new Scanner(System.in);
         String snackName = input.nextLine();
         int snackCalories = input.nextInt();
@@ -13,7 +14,7 @@ public class Main {
         System.out.print(snack2.getCalories());
         System.out.print(snack3.getName());
         System.out.print(snack3.getCalories()); 
-        /*
+    
         Sport Lacrosse = new Sport(); // default constructor
         System.out.println(Lacrosse.getName());
         System.out.println(Lacrosse.getNumberOfAtheletes());
@@ -30,7 +31,17 @@ public class Main {
         Sport Baseball = new Sport("Baseball", 1000); // overloaded constructor
         System.out.println(Baseball.getName());
         System.out.println(Baseball.getNumberOfAtheletes());
+        
         */
-        input.close();
+        Cow bessie = new Cow("holstein", "moo");
+        System.out.println(bessie.getSound());
+
+        System.out.println(bessie.getType());
+        bessie.milkCow();
+        System.out.println(bessie.getNumMilking());
+        bessie.milkCow();
+        bessie.milkCow();
+        System.out.println(bessie.getNumMilking());
+        // input.close();
     }
 }
