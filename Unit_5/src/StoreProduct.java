@@ -44,4 +44,19 @@ public class StoreProduct {
         this.hasExpiration = hasExpiration;
     }
 
+
+    public void expired(boolean hasExpiration){
+        if(hasExpiration){
+            stock = 0;
+        }
+    }
+
+    public boolean sale(int quantity){
+        return (stock >= quantity);
+    }
+
+    public double getDiscountedPrice(double discount){
+        return (1 - discount / 100) * price; 
+    }
+
 }
