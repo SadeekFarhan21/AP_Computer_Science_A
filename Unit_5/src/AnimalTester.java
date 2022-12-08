@@ -7,6 +7,6 @@ public class AnimalTester {
         cow.setAge(cow.getAge() + 1);
         dog.setName(dog.getName() + " dog");
         System.out.println(cow);
-        WSystem.out.println(dog);
+        System.out.println(dog);
     }
 }

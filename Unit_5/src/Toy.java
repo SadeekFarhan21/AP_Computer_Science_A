@@ -6,8 +6,10 @@ public class Toy {
         price = p;
     }
 
-    public double raisePrice(double surcharge)
-    {
-        return price + surcharge;
+    public void raisePrice(double surcharge){
+        price += surcharge;
     }
+
+    
+    
 }
