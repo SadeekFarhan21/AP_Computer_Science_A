@@ -5,7 +5,11 @@ public class Element {
         value = v;
         if(value > max_value){
             value = max_value;
+            System.out.println(value + " " + max_value);
         }
+    }
+    public String print(){
+        return "k is printed";
     }
 }
 
