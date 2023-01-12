@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 public class Main {
     public static void main(String [] args){
         /* 
@@ -33,6 +33,8 @@ public class Main {
         System.out.println(Baseball.getNumberOfAtheletes());
         
         */
+
+        /*
         Cow bessie = new Cow("holstein", "moo");
         System.out.println(bessie.getSound());
 
@@ -43,5 +45,17 @@ public class Main {
         bessie.milkCow();
         System.out.println(bessie.getNumMilking());
         // input.close();
+
+         */
+
+        for (int i = 0; i < 5; i++){
+            int k = (int) (Math.random() * 10 + 1);
+            if (k >= Element.max_value){
+                Element e = new Element(k);
+            }
+        }
+
+        Sport Cricket = new Sport();
+        System.out.print(Cricket);
     }
 }
