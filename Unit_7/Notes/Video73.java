@@ -98,6 +98,7 @@ public class Video73 {
         roster.add("Mike");
         roster.add("John");
         roster.add("Mary");
+        roster.add("John");
 
 
         for(String name : roster){
