@@ -112,7 +112,7 @@ public class Video73 {
                 System.out.println(grade);
             }
         }
-        
+
         // Enhanced For Loops doesn't update or change the actual ArrayList
         
 
@@ -152,6 +152,5 @@ public class Video73 {
 
             myList.set(i + 1, myList.get(i));
         }
-
     }
 }
