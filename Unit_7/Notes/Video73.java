@@ -112,6 +112,46 @@ public class Video73 {
                 System.out.println(grade);
             }
         }
+        
         // Enhanced For Loops doesn't update or change the actual ArrayList
+        
+
+        // ! Common mistakes
+        // ! Forget import statement
+        // ! Use primitive data type
+        
+
+        // Swap consecutive elements
+
+        ArrayList <Double> myList = new ArrayList<Double>();
+
+        myList.add(1.0);
+        myList.add(2.0);
+        myList.add(3.0);
+        myList.add(4.0);
+        myList.add(5.0);
+        myList.add(6.0);
+        myList.add(7.0);
+        myList.add(8.0);
+        myList.add(9.0);
+        myList.add(10.0);
+        myList.add(11.0);
+        myList.add(12.0);
+
+
+        /*
+        for(int i = myList.size(); i > 1; i--){
+            // Double removed = myList.get(i-1);
+            myList.set(i-1, myList.get(i-2));
+        }
+         */
+        System.out.println(myList);
+
+    
+        for(int i = 0; i < myList.size(); i += 2){
+
+            myList.set(i + 1, myList.get(i));
+        }
+
     }
 }
