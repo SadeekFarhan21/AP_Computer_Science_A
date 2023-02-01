@@ -3,7 +3,7 @@ import java.util.ArrayList;
 class Main
 {
 
-    public static void main Program2(Sting[] args)
+    public static void main(String[] args)
     {
         // 1. Create an array list of strings called 'courses'
         ArrayList <String> courses = new ArrayList <String>();
