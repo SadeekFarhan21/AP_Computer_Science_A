@@ -63,5 +63,55 @@ public class Video73 {
             }
         }
         System.out.println(grades);
+
+        // ! Video 2
+        // Enhanced For Loops for ArrayLists
+        // for=each loop iterates through all the elements of the ArrayList
+
+        // It uses first-to-last order and will visit each and every element of the ArrayList
+
+        // Easier to use than traditional for loop
+
+
+
+        // Don't need to keep track of the number of indices
+
+        /*
+         for(data type variable : nameOfArrayList){
+
+         }
+
+         */
+
+        ArrayList <String> roster = new ArrayList<String>();
+        
+        int total = 0;
+
+        roster.add("John");
+        roster.add("Mary");
+        roster.add("Mike");
+        roster.add("John");
+        roster.add("Mary");
+        roster.add("Mike");
+        roster.add("John");
+        roster.add("Mary");
+        roster.add("Mike");
+        roster.add("John");
+        roster.add("Mary");
+
+
+        for(String name : roster){
+            total += name.length();
+        }
+        System.out.println(total);
+
+        // Grades higher than 70
+
+        for(Double grade : grades){
+            if(grade > 70){
+                System.out.println(grade);
+            }
+        }
+        // Enhanced For Loops doesn't update or change the actual ArrayList
     }
 }
