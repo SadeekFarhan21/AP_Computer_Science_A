@@ -9,4 +9,8 @@ public class Comedian extends Performer {
     public void writeJokes(){
         System.out.println("Write a joke for me");
     }
-}
+
+    public void askQuestion(){
+        System.out.println("What are you doing ?");
+    }
+}   
