@@ -13,4 +13,7 @@ public class Comedian extends Performer {
     public void askQuestion(){
         System.out.println("What are you doing ?");
     }
+
+    jokes.add("Farhan Method");
+    
 }   
