@@ -1,7 +1,5 @@
 public class Dancer extends Performer {
-    public Dancer(){
-
+    public void perform(){
+        super.perform();
     }
-
-    
 }
